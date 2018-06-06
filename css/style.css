@@ -432,6 +432,11 @@ select {
 	color: #000;
 }
 
+.logo__title:hover {
+      opacity: .6;
+	  text-shadow: 0 0 1.5px green;
+    }
+
 .logo__tagline {
 	display: inline-block;
 	padding-top: 10px;

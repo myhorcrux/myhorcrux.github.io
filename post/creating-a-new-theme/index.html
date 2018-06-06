@@ -11,7 +11,7 @@
 <meta property="og:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
 We&rsquo;ll start with creating a new site with a very basic template." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/creating-a-new-theme/" />
+<meta property="og:url" content="minhdung.me/post/creating-a-new-theme/" />
 
 
 
@@ -33,9 +33,9 @@ We&rsquo;ll start with creating a new site with a very basic template." />
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
-	<link rel="stylesheet" href="/css/style.css">
-	<script type="text/javascript" src="/js/scripts.js"></script>
-	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="stylesheet" href="/minhdung.me/css/style.css">
+	<script type="text/javascript" src="/minhdung.me/js/scripts.js"></script>
+	<link rel="shortcut icon" href="/minhdung.me/favicon.ico">
 	
 <script>
 var doNotTrack = false;
@@ -54,7 +54,7 @@ if (!doNotTrack) {
 		<header class="header">
 			<div class="container container-inner">
 				<div class="logo" role="banner">
-					<a class="logo__link" href="/" title="Ming&#39;s blog" rel="home">
+					<a class="logo__link" href="/minhdung.me" title="Ming&#39;s blog" rel="home">
 						<div class="logo__title">Ming&#39;s blog</div>
 						<div class="logo__tagline">Sfumato</div>
 					</a>
@@ -63,10 +63,7 @@ if (!doNotTrack) {
 			
 <nav class="menu">
 	<ul class="menu__list">
-		<li class="menu__item"><a class="menu__link" href="/post/migrate-from-jekyll/">JEKYLL MIGRATION</a></li>
-		<li class="menu__item"><a class="menu__link" href="/post/goisforlovers/">(HU)GO TEMPLATE PRIMER</a></li>
-		<li class="menu__item"><a class="menu__link" href="/about/">ABOUT HUGO</a></li>
-		<li class="menu__item"><a class="menu__link" href="/post/hugoisforlovers/">GETTING STARTED WITH HUGO</a></li>
+		<li class="menu__item"><a class="menu__link" href="minhdung.me/about/">ABOUT HUGO</a></li>
 	</ul>
 </nav>
 
@@ -1181,7 +1178,7 @@ $ vi themes/zafta/layouts/_default/single.html
 	
 <div class="authorbox clearfix">
 	<figure class="authorbox__avatar">
-		<img alt="Ming Yong avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+		<img alt="Ming Yong avatar" src="/minhdung.me/img/avatar.png" class="avatar" height="90" width="90">
 	</figure>
 	<div class="authorbox__header">
 		<span class="authorbox__name">About Ming Yong</span>
@@ -1192,11 +1189,8 @@ $ vi themes/zafta/layouts/_default/single.html
 </div>
 	
 <nav class="post-nav row clearfix">
-	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/post/goisforlovers/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">(Hu)go Template Primer</p></a>
-	</div>
 	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/basic-elements/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Basic HTML Elements</p></a>
+		<a class="post-nav__link" href="minhdung.me/post/basic-elements/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Basic HTML Elements</p></a>
 	</div>
 </nav>
 	
@@ -1233,7 +1227,7 @@ $ vi themes/zafta/layouts/_default/single.html
 			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
 		</label>
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="/" />
+		<input type="hidden" name="sitesearch" value="minhdung.me" />
 	</form>
 </div>
 	
@@ -1241,11 +1235,8 @@ $ vi themes/zafta/layouts/_default/single.html
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/post/basic-elements/">Basic HTML Elements</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/creating-a-new-theme/">Creating a New Theme</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/goisforlovers/">(Hu)go Template Primer</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/hugoisforlovers/">Getting Started with Hugo</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></li>
+			<li class="widget__item"><a class="widget__link" href="minhdung.me/post/basic-elements/">Basic HTML Elements</a></li>
+			<li class="widget__item"><a class="widget__link" href="minhdung.me/post/creating-a-new-theme/">Creating a New Theme</a></li>
 		</ul>
 	</div>
 </div>
@@ -1254,8 +1245,7 @@ $ vi themes/zafta/layouts/_default/single.html
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/categories/development">Development</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/golang">Golang</a></li>
+			<li class="widget__item"><a class="widget__link" href="/minhdung.me/categories/development">Development</a></li>
 		</ul>
 	</div>
 </div>
@@ -1281,15 +1271,9 @@ $ vi themes/zafta/layouts/_default/single.html
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/basic-elements" title="Basic elements">Basic elements</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/css" title="Css">Css</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/development" title="Development">Development</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/go" title="Go">Go</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/golang" title="Golang">Golang</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/html" title="Html">Html</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/hugo" title="Hugo">Hugo</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/templates" title="Templates">Templates</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/themes" title="Themes">Themes</a>
+		<a class="widget-taglist__link widget__link btn" href="/minhdung.me/tags/basic-elements" title="Basic elements">Basic elements</a>
+		<a class="widget-taglist__link widget__link btn" href="/minhdung.me/tags/css" title="Css">Css</a>
+		<a class="widget-taglist__link widget__link btn" href="/minhdung.me/tags/html" title="Html">Html</a>
 	</div>
 </div>
 </aside>

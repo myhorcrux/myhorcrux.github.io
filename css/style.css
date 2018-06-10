@@ -1160,3 +1160,7 @@ textarea {
 		font-size: .6875rem;
 	}
 }
+
+#toc > .nav  {
+	list-style-type: none;
+}

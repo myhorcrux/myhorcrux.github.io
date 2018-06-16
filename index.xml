@@ -6,10 +6,19 @@
     <description>Recent content on Ming&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://minhdung.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Du lịch Bangkok: Các địa điểm (P3)</title>
+      <link>https://minhdung.me/post/bangkok-part-3/</link>
+      <pubDate>Sat, 16 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://minhdung.me/post/bangkok-part-3/</guid>
+      <description>&lt;p&gt;Phần cuối này sẽ nói về một số địa điểm mình đã đi khi tới Bangkok. Tóm tắt: các địa điểm mang tính trải nghiệm, không có gì quá đặc sắc, đừng kì vọng nhiều.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Du lịch Bangkok: Di chuyển (P2)</title>
@@ -31,26 +40,6 @@
       <description>&lt;p&gt;Chào mọi người, bài viết này sẽ không như các bài review trên mạng đậm màu hồng và tươi đẹp về du lịch ở Thái Lan :D. Nội dung bài viết về chuyến hành trình của mình, từ lúc đặt vé máy bay tới khi đặt chân về phòng.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Basic HTML Elements</title>
-      <link>https://minhdung.me/post/basic-elements/</link>
-      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://minhdung.me/post/basic-elements/</guid>
-      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://minhdung.me/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://minhdung.me/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>

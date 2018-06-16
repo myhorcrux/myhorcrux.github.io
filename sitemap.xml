@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://minhdung.me/post/bangkok-part-3/</loc>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://minhdung.me/post/bangkok-part-2/</loc>
     <lastmod>2018-06-09T00:00:00+00:00</lastmod>
   </url>
@@ -13,28 +18,12 @@
   </url>
   
   <url>
-    <loc>https://minhdung.me/post/basic-elements/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://minhdung.me/post/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://minhdung.me/about/</loc>
   </url>
   
   <url>
     <loc>https://minhdung.me/tags/bangkok/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://minhdung.me/tags/basic-elements/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -44,56 +33,38 @@
   </url>
   
   <url>
-    <loc>https://minhdung.me/tags/css/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://minhdung.me/categories/development/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://minhdung.me/tags/html/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://minhdung.me/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minhdung.me/post/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minhdung.me/tags/series/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minhdung.me/tags/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minhdung.me/categories/travel/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://minhdung.me/tags/vie/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
